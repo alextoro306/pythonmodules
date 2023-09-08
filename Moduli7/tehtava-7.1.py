@@ -17,4 +17,4 @@ kuukausi = int(input("Anna kuukauden numero 1-12: "))
 
 if 1 <= kuukausi <= 12:
     vuodenaika = vuodenajat[kuukausi]
-    print(f"Kuukausi {kuukausi} vastaa vuodenaikaa {vuodenaika}")
+    print(f"Kuukausi {kuukausi} vastaa vuodenaikaa {vuodenaika}.")
