@@ -20,5 +20,6 @@ def haeMaakoodi(icaokoodi):
             print(i)
     return
 
+
 icaokoodi = input("Anna ICAO-koodi: ")
 haeMaakoodi(icaokoodi)
