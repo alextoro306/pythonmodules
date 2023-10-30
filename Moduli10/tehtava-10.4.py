@@ -35,7 +35,6 @@ class Kilpailu:
                 return True
         return False
 
-# Luo 10 autoa
 autot = [
     Auto("Auto 1", 80),
     Auto("Auto 2", 75),
