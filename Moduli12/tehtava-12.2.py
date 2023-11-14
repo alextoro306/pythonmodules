@@ -4,7 +4,7 @@ def main():
     paikkakunta = input("Syötä paikkakunnan nimi: ")
     while paikkakunta !="":
 
-        api_avain = 'dildon api avain'
+        api_avain = 'https://openweathermap.org/api'
 
         url = f"http://api.openweathermap.org/data/2.5/weather?q={paikkakunta}&appid={api_avain}"
         vastaus = requests.get(url)
